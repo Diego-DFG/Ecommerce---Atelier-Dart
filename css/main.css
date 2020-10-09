@@ -1,0 +1,179 @@
+
+
+
+body {
+	font-family: 'lobster', cursive;
+	color: #000000;
+}
+
+
+.info {
+	background: #c9c1ac;
+}
+
+.info h2 {
+	word-spacing: 0.6rem;
+}
+
+/*************** header ***********************/
+
+#header {
+	min-height: calc(100vh - 400px);
+	background-size: 120%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.height-90 {
+	min-height: calc(100vh - 170px);
+}
+
+.display-1, .display-2 {
+	color: #fefefe;
+	animation: fromLeft;
+	animation-duration: 4s;
+	animation-delay: 0;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+.display-1 {
+	border-top: 6px solid #000000;
+	margin-bottom: -0.2em;
+}
+
+.display-2 {
+	border-bottom: 6px solid #000000;
+}
+
+.banner h1 strong {
+	border-bottom: none;
+}
+
+@keyframes fromLeft {
+	0% {
+		transform: translateX(-100);
+		opacity: 0;
+	}
+	50% {
+		transform: translateX(30px);
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.primary-color {
+	color: #444;
+}
+
+.cor-atelier {
+	color: sienna;
+}
+
+.cor-dart {
+	color: sienna;
+}
+
+.caixa li{
+	display: inline;
+	margin: 0 0 0 2em;
+	font-size: 30px;
+}
+
+.caixa li a {
+	color: #c9c1ac;
+}
+
+.header-link {
+	display: inline-block;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	background: gold;
+	border-radius: 10px;
+	transition: all 2s ease;
+	animation: fromBottom;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.header-link:hover {
+	background: #000000;
+	color: #fefefe;
+}
+
+@keyframes fromBottom {
+	0% {
+		transform: translateY(-10px);
+	}
+	50% {
+		transform: translateY(10px);
+	}
+	100% {
+		transform: translateY(-10px);
+	}
+}
+
+/************* section principal ****************/
+
+.principal {
+	display: flex;
+	background: url('../img/atelier.jpg')no-repeat center/cover;
+	padding: 40px 0;
+}
+
+@media (max-width: 768px) { /*breakpoint*/
+  .conteudo-principal {
+    margin-right: 5px;
+  }
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 4em;
+}
+
+.conteudo-principal {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	font-size: 30px;
+	margin: 20px 0 0 0; 
+	font-weight: normal;
+}
+
+.principal strong {
+	font-size: 25px;
+	color: red;
+	margin: 0 5px;
+}
+
+.imagem-principal {
+	position: relative;
+	transform: rotate(-25deg);
+	left: 20%;
+	top: 135px;
+	height: 25%;
+}
+
+/************* section footer ****************/
+
+footer {
+	background: #c9c1ac;
+	padding: 50px;
+}
+
+footer p {
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+
+
