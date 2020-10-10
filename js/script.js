@@ -63,9 +63,9 @@ function ApresentaItemCarrinho(titulo, preco, imgSrc) {
 				<span>${titulo}</span>
 			</div>
 		</div>
-		<span class="carrinho-item carrinho-preco">${preco}</span>
+		<span id="carrinho-preco" class="carrinho-item carrinho-preco">${preco}</span>
 		<div class="carrinho-quantidade">
-			<input class="carrinho-quantidade-input" type="number" value="1">
+			<input id="carrinho-quantidade-input" class="carrinho-quantidade-input" type="number" value="1">
 			<button class="btn btn-danger" type="button">REMOVER</button>
 		</div>`;
 	carrinhoItemLinha.innerHTML = conteudoCarrinhoLinha;
