@@ -3,9 +3,13 @@
 
 body {
 	font-family: 'lobster', cursive;
+	overflow-x: hidden;
 	color: #000000;
 }
 
+.conteudo {
+	overflow: hidden;
+}
 
 .info {
 	background: #c9c1ac;
@@ -277,20 +281,19 @@ footer p {
 
 @media (max-width: 440px) {
 
-	.conteudo {
-		height: 3280px;
-	}
+	
 
 	/*----------- Produtos ---------*/
 
 	.principal {
+		height: 1640px;
 		position: relative;
 		top: 100px;
 	}
 
 	.produtos {
-		height: 1640px;
 		width: 1000px;
+		border: none;
 	}
 
 	.produtos-lista:nth-child(2) {
@@ -306,8 +309,15 @@ footer p {
 	}
 
 	/*------------ Carrinho -------*/
+	#carrinho {
+		position: relative;
+		top: 150px;
+	}
+
 	.secao-carrinho {
-		height: 1640px;
+		height: 1140px;
+		position: relative;
+		top: 150px;
 	}
 
 	#carrinho-cabecalho {
@@ -347,73 +357,26 @@ footer p {
 		position: relative;
 		right: 30px;
 		width: 70px;
+		margin-bottom: 1em;
+	}
+
+	.btn-danger {
+		position: relative;
+		right: 50px;
+	}
+
+/*----------------- Footer --------------------*/
+
+	footer {
+		height: 50px;
+	}
+
+	footer p {
+		font-size: 1em;
 	}
 
 }
 
-@media (min-width: 441px) and (max-width: 640px) {
-
-	.conteudo {
-		height: 3280px;
-	}
-
-	/*------------ Produtos --------------*/
-
-	.produtos {
-		height: 1640px;
-		width: 1000px;
-	}
-
-	.produtos-lista:nth-child(1){
-		position: relative;
-		left: 100px;
-	}
-
-	.produtos-lista:nth-child(2) {
-		position: relative;
-		right: 250px;
-		top: 500px;
-	}
-
-	.produtos-lista:nth-child(3) {
-		position: relative;
-		right: 550px;
-		top: 1100px;
-	}
-
-}
-
-@media (min-width: 641px) and (max-width: 800px) {
-
-	.conteudo {
-		height: 3280px;
-	}
-
-	/*------------ Produtos --------------*/
-
-	.produtos {
-		height: 1640px;
-		width: 1000px;
-	}
-
-	.produtos-lista:nth-child(1){
-		position: relative;
-		left: 230px;
-	}
-
-	.produtos-lista:nth-child(2) {
-		position: relative;
-		right: 110px;
-		top: 500px;
-	}
-
-	.produtos-lista:nth-child(3) {
-		position: relative;
-		right: 430px;
-		top: 1100px;
-	}
-
-}
 
 
 
