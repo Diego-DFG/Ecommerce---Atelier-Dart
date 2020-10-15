@@ -282,6 +282,11 @@ footer p {
 @media (max-width: 440px) {
 
 	
+	.header-link {
+		position: relative;
+		bottom: 10px;
+
+	}
 
 	/*----------- Produtos ---------*/
 
@@ -330,7 +335,7 @@ footer p {
 
 	.cabecalho-carrinho:nth-child(1) {
 		position: relative;
-		right: 70px;
+		right: 20px;
 	}
 
 	.cabecalho-carrinho:nth-child(2) {
@@ -344,8 +349,13 @@ footer p {
 		bottom: 25px;
 	}
 
-	#carrinho-preco {
+	.carrinho-total-detalhes h1{
 		font-size: 1em;
+	}
+
+	#carrinho-preco {
+		font-size: 0.7em;
+		position: relative;
 	}
 
 	.carrinho-preco {
@@ -353,16 +363,22 @@ footer p {
 		right: 100px;
 	}
 
+	#carrinho-preco-total {
+		font-size: 1.5em;
+		position: relative;
+		right: 80px;
+	}
+
 	#carrinho-quantidade-input {
 		position: relative;
 		right: 30px;
-		width: 70px;
+		width: 40px;
 		margin-bottom: 1em;
 	}
 
 	.btn-danger {
 		position: relative;
-		right: 50px;
+		right: 70px;
 	}
 
 /*----------------- Footer --------------------*/
