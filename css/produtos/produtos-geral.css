@@ -1,0 +1,17 @@
+body {
+	font-family: 'lobster', cursive;
+	overflow-x: hidden;
+	color: #000000;
+}
+
+.conteudo {
+	overflow: hidden;
+}
+
+.info {
+	background: #c9c1ac;
+}
+
+.info h2 {
+	word-spacing: 0.6rem;
+}

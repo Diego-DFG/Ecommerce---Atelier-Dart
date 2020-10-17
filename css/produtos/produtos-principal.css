@@ -1,0 +1,38 @@
+.produtos {
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+.principal .titulo-principal {
+	text-align: center;
+	font-size: 4em;
+}
+
+.principal .conteudo-principal {
+	text-align: center;
+}
+
+.principal .produtos {
+	display: flex;
+}
+
+.principal .produtos-lista {
+	border-radius: 20px;
+	margin: 2em auto;
+	width: 30%;
+}
+
+.principal .produtos-titulo {
+	font-size: 1.5em;
+}
+
+.principal .btn-comprar {
+	margin: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+	margin-left: 1em;
+}
+
+.principal .produtos-preco {
+	font-size: 1.5em;
+}

@@ -1,0 +1,94 @@
+#carrinho {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 3em;
+}
+
+.secao-carrinho .carrinho-cabecalho {
+	border: 1px solid #000;
+	text-align: right;
+	font-size: 2em;
+	padding: 1em;
+}
+
+.secao-carrinho .coluna-carrinho {
+	margin-right: 6em;
+	font-size: 1.1em;
+}
+
+.secao-carrinho .carrinho-itens {
+	border: 1px solid #000;
+	border-top: none;
+}
+
+.secao-carrinho .carrinho-linha {
+	border-bottom: 1px solid #000;
+	display: flex;
+}
+
+.secao-carrinho .carrinho-total {
+	border: 1px solid #000;
+	font-size: 1.3em;
+	display: flex;
+}
+
+.secao-carrinho .carrinho-detalhes, .carrinho-total-detalhes {
+	border-bottom: none;
+	margin-top: 2em;
+	margin-right: 12em;
+	text-align: center;
+	display: block;
+	width: 20%;
+}
+
+.secao-carrinho .carrinho-total-detalhes {
+	margin-left: 1em;
+	margin-top: 1em;
+	border: none;
+	width: 5%;
+}
+
+.secao-carrinho .carrinho-preco, .carrinho-preco-total {
+	border-bottom: none;
+	margin-top: 3em;
+	font-size: 1.5em;
+	width: 30%;
+}
+
+.secao-carrinho .carrinho-preco-total {
+	border: none;
+	position: relative;
+	bottom: 20px;
+}
+
+.secao-carrinho .carrinho-preco-total {
+	border-bottom: none;
+	margin-top: 1em;
+	font-size: 2em;
+	width: 30%;
+}
+
+.secao-carrinho .carrinho-quantidade {
+	border-bottom: none;
+	margin-top: 4.5em;
+}
+
+.secao-carrinho .carrinho-quantidade-input {
+	border-radius: 10px;
+	background: rgba(0,0,0,.1);
+	text-align: center;
+	font-size: 1.2em;
+	width: 15%;
+}
+
+.comprar {
+	margin-top: 4em;
+	text-align: center;
+	margin-bottom: 4em;
+}
+
+.comprar .btn-comprar {
+	font-size: 2em;
+	padding-right: 4em;
+	padding-left: 4em
+}
