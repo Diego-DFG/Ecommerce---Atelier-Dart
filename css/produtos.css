@@ -393,6 +393,79 @@ footer p {
 
 }
 
+@media (min-width: 421px) and (max-width: 675px) {
+	/*--------- Carrinho -----------*/
+	#carrinho-cabecalho {
+		font-size: 1.5em;
+		padding-bottom: 2em;
+	}
 
+	.cabecalho-carrinho:nth-child(1) {
+		position: absolute;
+		right: 55%;
+	}
 
+	.cabecalho-carrinho:nth-child(2) {
+		position: absolute;
+		right: 20%;
+	}
+
+	.cabecalho-carrinho:nth-child(3) {
+		position: absolute;
+		left: 70%;
+	}
+
+	.carrinho-preco {
+		position: relative;
+		font-size: 2em;
+		right: 110px;
+	}
+
+	#carrinho-quantidade-input {
+		position: relative;
+		right: 30px;
+		width: 40px;
+		margin-bottom: 1em;
+	}
+
+	.btn-danger {
+		position: relative;
+		right: 70px;
+	}
+}
+
+@media (min-width: 675px) and (max-width: 1033px) {
+
+	#carrinho-cabecalho {
+		font-size: 1.5em;
+		padding-bottom: 2em;
+	}
+
+	.cabecalho-carrinho:nth-child(1) {
+		position: absolute;
+		right: 70%;
+	}
+
+	.cabecalho-carrinho:nth-child(2) {
+		position: absolute;
+		left: 45%;
+	}
+
+	.cabecalho-carrinho:nth-child(3) {
+		position: absolute;
+		left: 70%;
+	}
+
+	#carrinho-quantidade-input {
+		position: relative;
+		left: 5%;
+		width: 60px;
+		margin-bottom: 1em;
+	}
+
+	.btn-danger {
+		position: relative;
+		left: 15%;
+	}
+}
 
