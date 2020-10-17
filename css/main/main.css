@@ -121,7 +121,7 @@ body {
 
 .principal {
 	display: flex;
-	background: url('../img/atelier.jpg')no-repeat center/cover;
+	background: url('../../img/atelier.jpg')no-repeat center/cover;
 	padding: 40px 0;
 }
 
